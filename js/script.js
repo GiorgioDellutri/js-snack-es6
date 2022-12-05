@@ -2,12 +2,12 @@
 //2.** Stampare a schermo attraverso un ciclo `for-in` tutte le proprietà dell'oggetto.
 //3. Creare un array di oggetti di studenti (ossìa oggetti con le proprietà sopra descritte) e mostriamoli.
 
-const student ={
+const student ={ 
     name : 'Sigismondo',
     surname : 'Mandragola',
     age : 77
 }
+console.log(student);
 
 for (let key in student){
-    console.log(student);
 }
